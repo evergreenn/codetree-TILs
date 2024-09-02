@@ -20,9 +20,17 @@ public class Main {
             }
 
         }
-
+        if(answer.size()>0){
+            
         for(String str : answer){
             System.out.println(str);
         }
+
+        }
+        else{
+            System.out.println("None");
+        }
+
+
     }
 }
