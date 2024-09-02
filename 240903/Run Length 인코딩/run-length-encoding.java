@@ -24,13 +24,12 @@ public class Main {
                 answer+=String.valueOf(first);
             }
         }
-        if(cnt==1){
+      
 
         answer+=String.valueOf(cnt);
-        answer+=first;
-        }else{
-            answer+=String.valueOf(cnt);
-        }
+       
+        
+        
         System.out.println(answer.length());
         System.out.println(answer);
     }
